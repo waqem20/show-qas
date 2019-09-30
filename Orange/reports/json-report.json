@@ -1,0 +1,192 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "I have logged into OrangeHRM",
+            "match": {
+              "location": "DashBoardSteps.i_have_logged_into_OrangeHRM()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Add Employee",
+        "description": "",
+        "id": "employees;add-employee;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I navigated to the Add Employee Page",
+            "match": {
+              "location": "DashBoardSteps.i_navigated_to_the_Add_Employee_Page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I provide \"waqem\" and \"u\" and \"haq\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"waqem\"",
+                  "offset": 10
+                },
+                {
+                  "val": "\"u\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"haq\"",
+                  "offset": 30
+                }
+              ],
+              "location": "DashBoardSteps.i_provide_and_haq(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I successfully added an employee",
+            "match": {
+              "location": "DashBoardSteps.i_successfully_added_an_employee()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Employees"
+          },
+          {
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "I have logged into OrangeHRM",
+            "match": {
+              "location": "DashBoardSteps.i_have_logged_into_OrangeHRM()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Add Employee",
+        "description": "",
+        "id": "employees;add-employee;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I navigated to the Add Employee Page",
+            "match": {
+              "location": "DashBoardSteps.i_navigated_to_the_Add_Employee_Page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I provide \"joe\" and \"joe\" and \"star\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"joe\"",
+                  "offset": 10
+                },
+                {
+                  "val": "\"joe\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"star\"",
+                  "offset": 30
+                }
+              ],
+              "location": "DashBoardSteps.i_provide_and_haq(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I successfully added an employee",
+            "match": {
+              "location": "DashBoardSteps.i_successfully_added_an_employee()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Employees"
+          },
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Employees",
+    "description": "",
+    "id": "employees",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/Employees.feature",
+    "tags": [
+      {
+        "name": "@Employees",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
