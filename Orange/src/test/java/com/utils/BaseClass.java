@@ -20,11 +20,11 @@ public class BaseClass {
 		String browserName = prop.getProperty("browser");
 		
 		if(browserName.equalsIgnoreCase("Chrome")) {
-			System.setProperty("webdriver.chrome.driver", "C:\\Users\\waqem.haq\\Desktop\\Drivers\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "src/test/resources/Driver/chromedriver");
 			driver = new ChromeDriver();
 			driver.get(prop.getProperty("url"));
 		} else if(browserName.equalsIgnoreCase("FireFox")) {
-			System.setProperty("webdriver.gecko.driver", "C:\\Users\\waqem.haq\\eclipse-workspace\\Orange\\src\\test\\resources\\drivers\\geckodriver.exe");
+			System.setProperty("webdriver.gecko.driver", "src/test/resources/Driver/geckodriver");
 			driver =new FirefoxDriver();
 			driver.get(prop.getProperty("url"));
 		}
