@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="5.850217">
+<testcase classname="Login feature" name="Valid login" time="3.796421">
+<failure message="org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 75&#10;Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'&#10;System info: host: 'Weqass-MBP.home', ip: 'fe80:0:0:0:182d:b6ba:990a:d8c1%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_191'&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: 0   chromedriver                        0x00000001070b5319 chromedriver + 3597081&#10;1   chromedriver                        0x0000000107044f73 chromedriver + 3137395&#10;2   chromedriver                        0x0000000106df0c7f chromedriver + 695423&#10;3   chromedriver                        0x0000000106d5ea6b chromedriver + 96875&#10;4   chromedriver                        0x0000000106d5ab18 chromedriver + 80664&#10;5   chromedriver                        0x0000000106d87139 chromedriver + 262457&#10;6   chromedriver                        0x0000000106d84753 chromedriver + 251731&#10;7   chromedriver                        0x0000000106d60aea chromedriver + 105194&#10;8   chromedriver                        0x0000000106d61b45 chromedriver + 109381&#10;9   chromedriver                        0x0000000107073f85 chromedriver + 3329925&#10;10  chromedriver                        0x000000010707f890 chromedriver + 3377296&#10;11  chromedriver                        0x000000010707f628 chromedriver + 3376680&#10;12  chromedriver                        0x0000000107053769 chromedriver + 3196777&#10;13  chromedriver                        0x0000000107080108 chromedriver + 3379464&#10;14  chromedriver                        0x0000000107067957 chromedriver + 3279191&#10;15  chromedriver                        0x000000010709ca94 chromedriver + 3496596&#10;16  chromedriver                        0x00000001070bb047 chromedriver + 3620935&#10;17  libsystem_pthread.dylib             0x00007fff6585c2eb _pthread_body + 126&#10;18  libsystem_pthread.dylib             0x00007fff6585f249 _pthread_start + 66&#10;19  libsystem_pthread.dylib             0x00007fff6585b40d thread_start + 13&#10;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#10;&#9;at java.lang.reflect.Constructor.newInstance(Constructor.java:423)&#10;&#9;at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)&#10;&#9;at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)&#10;&#9;at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)&#10;&#9;at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)&#10;&#9;at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)&#10;&#9;at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)&#10;&#9;at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)&#10;&#9;at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)&#10;&#9;at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)&#10;&#9;at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)&#10;&#9;at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)&#10;&#9;at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)&#10;&#9;at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)&#10;&#9;at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:207)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:130)&#10;&#9;at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)&#10;&#9;at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)&#10;&#9;at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)&#10;&#9;at com.utils.BaseClass.browsers(BaseClass.java:24)&#10;&#9;at com.stepDefinitions.LoginStep.oranghrm_logo_is_displayed(LoginStep.java:28)&#10;&#9;at ✽.OrangHRM logo is displayed(src/test/resources/features/Login.feature:5)&#10;"><![CDATA[Given OrangHRM logo is displayed............................................failed
+When I enter "Admin" and "admin123".........................................skipped
+And I click login button....................................................skipped
+Then Login is successful....................................................skipped
+
+StackTrace:
+org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 75
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'Weqass-MBP.home', ip: 'fe80:0:0:0:182d:b6ba:990a:d8c1%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_191'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 0   chromedriver                        0x00000001070b5319 chromedriver + 3597081
+1   chromedriver                        0x0000000107044f73 chromedriver + 3137395
+2   chromedriver                        0x0000000106df0c7f chromedriver + 695423
+3   chromedriver                        0x0000000106d5ea6b chromedriver + 96875
+4   chromedriver                        0x0000000106d5ab18 chromedriver + 80664
+5   chromedriver                        0x0000000106d87139 chromedriver + 262457
+6   chromedriver                        0x0000000106d84753 chromedriver + 251731
+7   chromedriver                        0x0000000106d60aea chromedriver + 105194
+8   chromedriver                        0x0000000106d61b45 chromedriver + 109381
+9   chromedriver                        0x0000000107073f85 chromedriver + 3329925
+10  chromedriver                        0x000000010707f890 chromedriver + 3377296
+11  chromedriver                        0x000000010707f628 chromedriver + 3376680
+12  chromedriver                        0x0000000107053769 chromedriver + 3196777
+13  chromedriver                        0x0000000107080108 chromedriver + 3379464
+14  chromedriver                        0x0000000107067957 chromedriver + 3279191
+15  chromedriver                        0x000000010709ca94 chromedriver + 3496596
+16  chromedriver                        0x00000001070bb047 chromedriver + 3620935
+17  libsystem_pthread.dylib             0x00007fff6585c2eb _pthread_body + 126
+18  libsystem_pthread.dylib             0x00007fff6585f249 _pthread_start + 66
+19  libsystem_pthread.dylib             0x00007fff6585b40d thread_start + 13
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:207)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:130)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at com.utils.BaseClass.browsers(BaseClass.java:24)
+	at com.stepDefinitions.LoginStep.oranghrm_logo_is_displayed(LoginStep.java:28)
+	at ✽.OrangHRM logo is displayed(src/test/resources/features/Login.feature:5)
+]]></failure>
+</testcase>
+<testcase classname="Login feature" name="Invalid login" time="2.053796">
+<failure message="org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 75&#10;Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'&#10;System info: host: 'Weqass-MBP.home', ip: 'fe80:0:0:0:182d:b6ba:990a:d8c1%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_191'&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: 0   chromedriver                        0x0000000108555319 chromedriver + 3597081&#10;1   chromedriver                        0x00000001084e4f73 chromedriver + 3137395&#10;2   chromedriver                        0x0000000108290c7f chromedriver + 695423&#10;3   chromedriver                        0x00000001081fea6b chromedriver + 96875&#10;4   chromedriver                        0x00000001081fab18 chromedriver + 80664&#10;5   chromedriver                        0x0000000108227139 chromedriver + 262457&#10;6   chromedriver                        0x0000000108224753 chromedriver + 251731&#10;7   chromedriver                        0x0000000108200aea chromedriver + 105194&#10;8   chromedriver                        0x0000000108201b45 chromedriver + 109381&#10;9   chromedriver                        0x0000000108513f85 chromedriver + 3329925&#10;10  chromedriver                        0x000000010851f890 chromedriver + 3377296&#10;11  chromedriver                        0x000000010851f628 chromedriver + 3376680&#10;12  chromedriver                        0x00000001084f3769 chromedriver + 3196777&#10;13  chromedriver                        0x0000000108520108 chromedriver + 3379464&#10;14  chromedriver                        0x0000000108507957 chromedriver + 3279191&#10;15  chromedriver                        0x000000010853ca94 chromedriver + 3496596&#10;16  chromedriver                        0x000000010855b047 chromedriver + 3620935&#10;17  libsystem_pthread.dylib             0x00007fff6585c2eb _pthread_body + 126&#10;18  libsystem_pthread.dylib             0x00007fff6585f249 _pthread_start + 66&#10;19  libsystem_pthread.dylib             0x00007fff6585b40d thread_start + 13&#10;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#10;&#9;at java.lang.reflect.Constructor.newInstance(Constructor.java:423)&#10;&#9;at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)&#10;&#9;at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)&#10;&#9;at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)&#10;&#9;at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)&#10;&#9;at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)&#10;&#9;at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)&#10;&#9;at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)&#10;&#9;at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)&#10;&#9;at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)&#10;&#9;at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)&#10;&#9;at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)&#10;&#9;at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)&#10;&#9;at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)&#10;&#9;at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:207)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:130)&#10;&#9;at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)&#10;&#9;at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)&#10;&#9;at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)&#10;&#9;at com.utils.BaseClass.browsers(BaseClass.java:24)&#10;&#9;at com.stepDefinitions.LoginStep.oranghrm_logo_is_displayed(LoginStep.java:28)&#10;&#9;at ✽.OrangHRM logo is displayed(src/test/resources/features/Login.feature:5)&#10;"><![CDATA[Given OrangHRM logo is displayed............................................failed
+Given I enter "waqem" and "hello123"........................................skipped
+And I click login button....................................................skipped
+Then I see error message "Invalid credentials"..............................skipped
+
+StackTrace:
+org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 75
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'Weqass-MBP.home', ip: 'fe80:0:0:0:182d:b6ba:990a:d8c1%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_191'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 0   chromedriver                        0x0000000108555319 chromedriver + 3597081
+1   chromedriver                        0x00000001084e4f73 chromedriver + 3137395
+2   chromedriver                        0x0000000108290c7f chromedriver + 695423
+3   chromedriver                        0x00000001081fea6b chromedriver + 96875
+4   chromedriver                        0x00000001081fab18 chromedriver + 80664
+5   chromedriver                        0x0000000108227139 chromedriver + 262457
+6   chromedriver                        0x0000000108224753 chromedriver + 251731
+7   chromedriver                        0x0000000108200aea chromedriver + 105194
+8   chromedriver                        0x0000000108201b45 chromedriver + 109381
+9   chromedriver                        0x0000000108513f85 chromedriver + 3329925
+10  chromedriver                        0x000000010851f890 chromedriver + 3377296
+11  chromedriver                        0x000000010851f628 chromedriver + 3376680
+12  chromedriver                        0x00000001084f3769 chromedriver + 3196777
+13  chromedriver                        0x0000000108520108 chromedriver + 3379464
+14  chromedriver                        0x0000000108507957 chromedriver + 3279191
+15  chromedriver                        0x000000010853ca94 chromedriver + 3496596
+16  chromedriver                        0x000000010855b047 chromedriver + 3620935
+17  libsystem_pthread.dylib             0x00007fff6585c2eb _pthread_body + 126
+18  libsystem_pthread.dylib             0x00007fff6585f249 _pthread_start + 66
+19  libsystem_pthread.dylib             0x00007fff6585b40d thread_start + 13
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:207)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:130)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at com.utils.BaseClass.browsers(BaseClass.java:24)
+	at com.stepDefinitions.LoginStep.oranghrm_logo_is_displayed(LoginStep.java:28)
+	at ✽.OrangHRM logo is displayed(src/test/resources/features/Login.feature:5)
+]]></failure>
+</testcase>
+</testsuite>

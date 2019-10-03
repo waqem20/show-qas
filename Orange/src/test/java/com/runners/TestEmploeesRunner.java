@@ -7,10 +7,10 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features={"src/test/resources/features"},
-				 glue={"com.stepDefinitions"},
+				 glue={"com/stepDefinitions"},
 				 tags= {"@Employees"},
 				 monochrome=true,
-				 dryRun=true,
+				 dryRun=false,
 				 plugin = {
 						 "pretty",
 						 "html:reports/html-report",

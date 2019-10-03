@@ -13,8 +13,8 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features= {"src/test/resources/features"},
-				 glue = {"com.stepDefinitions"},
-				 dryRun = true,
+				 glue = {"com/stepDefinitions"},
+				 dryRun = false,
 				 monochrome = true,
 				 tags = {"@Login"},
 				 plugin = {
